@@ -20,3 +20,83 @@ This research investigates the effectiveness of traditional rule-based monitorin
 ## Overview
 
 This repository contains the code, datasets, experiments, and research artifacts associated with this study.
+
+## Dataset
+
+This study utilizes the HDFS_v1 dataset, a benchmark dataset widely used in anomaly detection research for distributed systems.
+
+To support reproducibility, an archival mirror of the dataset is maintained at:
+
+https://www.kaggle.com/datasets/tamaniwilliams/hdfs-v1-loghub-dataset-archive
+
+The archive contains:
+
+- HDFS.log
+- HDFS.npz
+- Event_occurrence_matrix.csv
+- Event_traces.csv
+- HDFS.log_templates.csv
+- anomaly_label.csv
+
+The primary files used throughout this study are:
+
+- Event_occurrence_matrix.csv
+- anomaly_label.csv
+
+These files provide the feature matrix and ground-truth labels used for evaluating rule-based, supervised, and unsupervised anomaly detection approaches.
+
+## Repository Structure
+
+```text
+data/
+├── raw/
+├── processed/
+
+notebooks/
+
+src/
+
+results/
+
+paper/
+```
+
+* **data/** contains dataset references and supporting documentation.
+* **notebooks/** contains exploratory analysis and experimentation notebooks.
+* **src/** contains Python scripts used throughout the study.
+* **results/** contains model outputs, evaluation metrics, and visualizations.
+* **paper/** contains research planning documents and manuscript materials.
+
+```
+```
+
+## Project Status
+
+**Current Phase:** Data Acquisition and Experiment Setup
+
+### Completed
+
+* Research topic approved
+* Project plan approved
+* HDFS_v1 dataset obtained and validated
+* Public dataset archive created
+* GitHub repository established
+
+### In Progress
+
+* Data exploration
+* Experimental environment setup
+* Reproducibility documentation
+
+### Upcoming
+
+* Statistical threshold development
+* Logistic Regression implementation
+* Random Forest implementation
+* Isolation Forest implementation
+* Model evaluation and comparison
+
+```
+```
+
+## References
